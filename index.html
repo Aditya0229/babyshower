@@ -10,15 +10,15 @@
      Change the URLs if your repo name is not "babyshower".
      ========================================================== -->
 <title>Yugali's Godh Bharai</title>
-<meta name="description" content="Aditya and Yugali inviting you to virtually celebrate Yugali's Godh Bharai. 23rd August 2026, 9:30 AM IST.">
+<meta name="description" content="Aditya and Yugali inviting you to virtually celebrate Yugali's Godh Bharai. 23rd August 2026, 10 AM IST.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Yugali's Godh Bharai">
-<meta property="og:description" content="Adiयुग's baby is arriving! Join us virtually on 23rd August 2026, 9:30 AM IST.">
+<meta property="og:description" content="Adiयुग's baby is arriving! Join us virtually on 23rd August 2026, 10 AM IST.">
 <meta property="og:image" content="https://aditya0229.github.io/babyshower/yugali.jpg">
 <meta property="og:url" content="https://aditya0229.github.io/babyshower/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Yugali's Godh Bharai">
-<meta name="twitter:description" content="Adiयुग's baby is arriving! 23rd August 2026, 9:30 AM IST.">
+<meta name="twitter:description" content="Adiयुग's baby is arriving! 23rd August 2026, 10 AM IST.">
 <meta name="twitter:image" content="https://aditya0229.github.io/babyshower/yugali.jpg">
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#129462;</text></svg>">
@@ -153,9 +153,11 @@ section{margin-top:72px}
 .team.papa .emoji{border-color:#BFDBFE}
 .team .name{font-weight:700;font-size:15px;margin-top:12px;display:block}
 .team .desc{font-size:11px;color:#9B8A7A;margin-top:4px;display:block}
-.bar{height:8px;border-radius:999px;background:rgba(255,255,255,.85);
+.bar{display:block;width:100%;height:8px;border-radius:999px;background:rgba(255,255,255,.85);
   border:1px solid rgba(0,0,0,.04);overflow:hidden;margin-top:8px}
-.bar i{display:block;height:100%;border-radius:999px;width:0;transition:width .7s ease-out}
+.bar i{display:block;height:8px;border-radius:999px;width:0;transition:width .7s ease-out}
+.stats{display:flex!important}
+.team .emoji{display:flex!important}
 .team.mumma .bar i{background:linear-gradient(to right,#FF9EBB,#FF6B9A)}
 .team.papa .bar i{background:linear-gradient(to right,#7FB6FF,#4A8FE0)}
 .stats{display:flex;justify-content:space-between;font-size:11px;font-weight:700;margin-top:16px}
@@ -227,7 +229,7 @@ footer .meta{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:
     <p class="subtitle"><span class="deva">Adiयुग</span><span class="green">'s baby is arriving!</span></p>
     <div class="pill">
       <span>23rd August 2026</span><i class="dot"></i>
-      <span>9:30 AM IST</span><i class="dot"></i>
+      <span>10 AM IST</span><i class="dot"></i>
       <span style="color:#8B3A4A">Virtually Celebrated</span>
     </div>
   </header>
@@ -344,7 +346,7 @@ footer .meta{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:
     <p class="msg">Your blessings mean the world to us.<br>Join us virtually and shower your love.</p>
     <span class="script">Aditya and Yugali</span>
     <div class="rule" style="margin-top:24px"><span class="line"></span>🪷<span class="line"></span></div>
-    <p class="meta">Virtual celebration · 23 Aug 2026 · 9:30 AM IST</p>
+    <p class="meta">Virtual celebration · 23 Aug 2026 · 10 AM IST</p>
   </footer>
 </main>
 
@@ -413,7 +415,7 @@ function toast(text){
 }
 
 /* ===================== 4. COUNTDOWN ===================== */
-const EVENT = new Date("2026-08-23T09:30:00+05:30");
+const EVENT = new Date("2026-08-23T010:00+05:30");
 function tick(){
   const ms = EVENT - Date.now();
   if (ms <= 0) return;
